@@ -1,0 +1,10 @@
+{
+  "name": "tslint-config-kodefox",
+  "version": "1.0.0",
+  "description": "A TSLint config for KodeFox JavaScript Style",
+  "files": [
+    "tslint.js"
+  ],
+  "main": "tslint.js",
+  "license": "ISC"
+}
