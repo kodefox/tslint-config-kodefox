@@ -1,15 +1,23 @@
 module.exports = {
   defaultSeverity: 'error',
   rules: {
-    'max-classes-per-file': false,
-    'ordered-imports': false,
-    'interface-over-type-literal': false,
-    'member-access': [true, 'no-public'],
-    'prefer-const': false,
     'array-type': [true, 'generic'],
-    'variable-name': false,
-    'object-literal-sort-keys': false,
     'interface-name': [true, 'never-prefix'],
+    'interface-over-type-literal': false,
+    'max-classes-per-file': false,
+    'member-access': [true, 'no-public'],
     'no-empty': [true, 'allow-empty-functions'],
+    'no-unused-expression': [true, 'allow-fast-null-checks']
+    'object-literal-sort-keys': false,
+    'ordered-imports': false,
+    'prefer-const': false,
+    'quotemark': [
+      true,
+      'single',
+      'avoid-escape',
+      'avoid-template',
+      'jsx-double'
+    ],
+    'variable-name': false,
   },
 };
