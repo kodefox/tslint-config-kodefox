@@ -7,6 +7,7 @@ module.exports = {
     'max-classes-per-file': false,
     'member-access': [true, 'no-public'],
     'no-empty': [true, 'allow-empty-functions'],
+    'no-unused-expression': [true, 'allow-fast-null-checks']
     'object-literal-sort-keys': false,
     'ordered-imports': false,
     'prefer-const': false,
