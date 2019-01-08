@@ -11,6 +11,13 @@ module.exports = {
     'object-literal-sort-keys': false,
     'ordered-imports': false,
     'prefer-const': false,
+    'quotemark': [
+      true,
+      'single',
+      'avoid-escape',
+      'avoid-template',
+      'jsx-double'
+    ],
     'variable-name': false,
   },
 };
